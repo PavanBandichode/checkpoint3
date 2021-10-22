@@ -70,7 +70,7 @@ body{
     max-width: 1300px;
     margin: 0 auto;
 }
-/*headder*/
+/*header*/
 .fifty{
     width: 50%;
 }
@@ -81,9 +81,13 @@ body{
 }
 .fifty span{
     padding-right: 40px;
+    padding-left: 10px;
 }
 .fifty li{
     padding-left:30px ;
+}
+.navbar{
+    padding: 20px 0;
 }
 .navbar a{
     color:#07315F;
@@ -94,7 +98,7 @@ text-transform: uppercase;
 }
 .navbar .buson a{
     font-size: 30px;
-    font-weight: 700;
+    font-weight: 800;
 }
 .navbar .buson a span{
     color: red;
@@ -263,7 +267,8 @@ h4{
 }
 .section5 h3{
     margin-top: 60px;
-    margin-bottom: 20px;
+    padding-left: 0;
+    font-size: 40px;
 }
 /*section6 cases*/
 .section6{
@@ -347,11 +352,305 @@ cite{
     margin-top: 20px;
     text-align: center;
 }
-/**/
+/*footer*/
+.footer{
+    padding-top: 100px;
+}
+.logo-footer{
+    width: 40%;
+}
+.footer-section{
+    width: 25%;
+}
+.container-sm{
+    margin-bottom: 40px;
+}
+.container-sm .passage1{
+    width: 60%;
+    color:#8CA2B8 ;
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+.footer h5,.contact-container h5{
+    color: #06325F;
+    font-size: 20px;
+    font-weight: 500;
+}
+.f
+.footer .footer-icon-menu{
+    font-size: 20px;
+}
+.footer .footer-icon-menu .footer-icon{
+    padding-right: 10px;
+}
+.footer .lists a{
+    line-height: 2;
+    text-transform: capitalize;
+    text-decoration: none;
+    color:#8CA2B8 ;
+}
+.footer address{
+    padding-top: 20px;
+    color:#8CA2B8 ;
+}
 .footer .copyright-txt{
     text-align: center;
     margin: 30px 0;
 }
 .danger{
     color: #FD656B;
+}
+/*About Page*/
+.banner1{
+    background: url(../assets/media/hero/about_hero.jpg) center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+h6{
+    text-align: center;
+    padding: 90px 0;
+    font-size: 50px;
+    color: white;
+}
+/*service Page*/
+.banner2{
+    background: url(../assets/media/hero/services_hero.jpg) center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 80px;
+}
+/*Contact Page*/
+.banner3{
+    background: url(../assets/media/hero/contact_hero.jpg) center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 80px;
+}
+iframe{
+    margin-bottom: 30px;
+}
+.contact-right{
+    width: 30%;
+}
+.contact-left{
+    width: 70%;
+    margin-bottom: 90px;
+}
+.enter-message{
+    color: #8CA2B8;
+    border: 3px solid #8CA2B8;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-bottom: 130px;
+}
+.contact-c1{
+    width: 49%;
+    color: #8CA2B8;
+    border: 3px solid #8CA2B8;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    margin: 10px 0;
+}
+/* .contact-adress{
+    width: 60%;
+} */
+.subject{
+    color: #8CA2B8;
+    border: 3px solid #8CA2B8;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    margin-bottom: 30px;
+}
+.fa-home,.fa-tablet-alt,.cr-1 .fa-envelope{
+    color: #8CA2B8;
+    font-size: 30px;
+    padding-top: 5px;
+    /* padding-right: 20px; */
+}
+.cc-1{
+    width: 20%;
+}
+.cc-2{
+    width: 70%;
+}
+.cr-1{
+    margin-bottom: 20px;
+}
+.contact-adress p{
+    color: #8CA2B8;
+}
+.contact-adress .bold{
+    color: #133F6D;
+    font-weight: 500;
+}
+/*Cases Pages*/
+.banner4{
+    background: url(../assets/media/hero/cases_hero.jpg) center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.banner4 h6,.banner5 h6{
+    text-align: center;
+    padding: 90px 0;
+    font-size: 50px;
+    color: white;
+}
+.white-bg{
+    width: 300px;
+    height: 100px;
+    position: absolute;
+    left: 0;
+   bottom: 0;
+    background-color: white;
+}
+.white-bg h3{
+    padding-left: 0;
+}
+.sm-container{
+    position: relative;
+    margin-top: 0;
+    width: 30%;
+    margin-bottom: 30px;
+}
+.sm-container img{
+    width: 100%;
+}
+.casestudy{
+    padding:150px 0;
+    background-color: #F8FAFE;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
+/*blog Page*/
+.banner5{
+    background: url(../assets/media/hero/blog_hero.jpg) center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.red-bg{
+    background-color:#FD656B ;
+    color: white;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    border-radius: 3px;
+    position: absolute;
+    left: 5%;
+    bottom: -5%;
+    padding: 8px;
+}
+.red-bg .date{
+    font-size: 30px;
+}
+.blog-container{
+    position: relative;
+}
+.blog-container img{
+    width: 100%;
+}
+.margin-top{
+    margin-top: 80px;
+}
+.blog-left h3{
+    padding-left: 0;
+    margin-top: 30px;
+}
+.b-r-1 h3{
+    padding-left: 0;
+}
+.blog-stats{
+    color: #8CA2B8;
+}
+.blog-stats span{
+    padding:0 10px;
+}
+.blog-container-bottom{
+    padding-left: 8px;
+}
+.blog-left{
+    width: 63%;
+}
+.blog-left .blog-1-1{
+    margin-bottom: 50px;
+}
+.blog-right{
+    width: 33%;
+}
+.b-r-1 .div-1{
+    width: 90%;
+    border: 1px solid #717F8E;
+    padding: 4px;
+    color: #717F8E;
+}
+.b-r-1 .div-2{
+    width: 10%;
+}
+.b-r-1{
+    padding: 10px;
+    background-color: #F8FAFE;
+    margin-bottom: 30px;
+}
+.div-2{
+    background-color: #FD656B ;
+    text-align: center;
+    color: white;
+    padding: 4px 0;
+}
+.blog-right .b-r-1  .btn{
+    text-align: center;
+    text-transform: uppercase;
+    color: #FD656B;
+    border: 1px solid #FD656B;
+    padding: 20px 0;
+    margin: 10px 0;
+}
+.blog-right .b-r-1  .btn a{
+    color: #FD656B;
+    text-decoration: none;
+    letter-spacing: 3px;
+}
+.blog-margin{
+    margin-top: 80px;
+}
+.b-r-1 ul li a{
+    text-decoration: none;
+    color:  #717F8E;
+}
+.b-r-1 .post-content time{
+    padding-left: 0;
+}
+.b-r-1 .post-content{
+    padding-left: 20px;
+}
+.b-r-1 .post-content p{
+    font-size: 17px;
+    color:#133F6D ;
+    font-weight: 500;
+}
+.b-r-1 .post-content time{
+    color: #717F8E;
+}
+.b-r-1 .post{
+    margin: 10px 0;
+}
+.b-r-1 .tag-menu button{
+    margin-right: 10px;
+    border: none;
+    box-shadow: none;
+    font-size: 17px;
+    color: #717F8E;
+    padding:5px 10px;
+    border: 2px solid #717F8E;
+    margin-bottom: 10px;
+    background-color: white;
+}
+.tag-menu{
+    margin: 20px 0;
+}
+.insta-feed-image{
+    margin-left: 10px;
+    margin-bottom: 10px;
 }
