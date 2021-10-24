@@ -552,7 +552,7 @@ iframe{
     width: 100%;
 }
 .margin-top{
-    margin-top: 80px;
+    margin-top: 40px;
 }
 .blog-left h3{
     padding-left: 0;
@@ -653,4 +653,11 @@ iframe{
 .insta-feed-image{
     margin-left: 10px;
     margin-bottom: 10px;
+}
+.blog-1-1,.blog-1-1-2{
+    box-shadow: 10px 10px 24px 5px rgb(141, 130, 130);
+    padding-bottom: 60px;
+}
+.wrapping{
+    flex-wrap: hidden;
 }
