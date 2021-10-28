@@ -253,7 +253,8 @@ h4{
     width: 50%;
 }
 .section5 .cases img{
-    width: 320px;
+    width: 300px;
+    margin-left: 20px;
 }
 .cases-1{
     margin-top: 30px;
@@ -269,6 +270,9 @@ h4{
     margin-top: 60px;
     padding-left: 0;
     font-size: 40px;
+}
+.overflow{
+    overflow: auto;
 }
 /*section6 cases*/
 .section6{
@@ -563,6 +567,7 @@ iframe{
 }
 .blog-stats{
     color: #8CA2B8;
+    padding-top: 20px;
 }
 .blog-stats span{
     padding:0 10px;
@@ -660,4 +665,10 @@ iframe{
 }
 .wrapping{
     flex-wrap: hidden;
+}
+.b-r-1 .div-3{
+    width: 100%;
+    border: 1px solid #717F8E;
+    padding: 4px;
+    color: #717F8E;
 }
